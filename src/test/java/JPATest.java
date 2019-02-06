@@ -49,7 +49,7 @@ public class JPATest {
         for (int i = 0; i < results.size(); i++) {
 
             System.out.println(results.get(i).getInfo());
-            assertEquals(results.get(i).toString(), buddies.get(i).toString());
+            assertTrue(buddies.contains(results.get(i)));
         }
 
         // Closing connection
