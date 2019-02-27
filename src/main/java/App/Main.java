@@ -16,7 +16,7 @@ public class Main {
         SpringApplication.run(Main.class);
     }
 
-    /*@Bean
+    @Bean
     public CommandLineRunner demo(BuddyInfoRepository repository) {
         return (args) -> {
             //save a couple of addresses
@@ -50,5 +50,5 @@ public class Main {
             });
             log.info("");
         };
-    }*/
+    }
 }
